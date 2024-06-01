@@ -1,3 +1,4 @@
 name: VerduraeActionPlan
 version: '${version}'
 main: org.verdurae.verduraeactionplan.VerduraeActionPlan
+author: "Kaminy"
