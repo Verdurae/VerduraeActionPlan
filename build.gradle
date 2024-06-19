@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
 
 group = 'org.Verdurae'
@@ -19,6 +20,7 @@ repositories {
 
 dependencies {
     compileOnly "org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT"
+//    implementation 'org.openjdk.nashorn:nashorn-core:15.4'
 }
 
 def targetJavaVersion = 8
